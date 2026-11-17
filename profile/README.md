@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://qubry.dev"><img src="https://qubry.dev/assets/img/qubry-mark.svg" width="72" alt="Qubry"></a>
+  <a href="https://qubry.dev"><img src="https://qubry.dev/assets/img/qubry-mark.svg?171126202806" width="72" alt="Qubry"></a>
 </p>
 
 <h1 align="center">Build beyond code.</h1>
@@ -24,37 +24,37 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://qubry.dev/assets/img/studio-icon.png?161126085519" width="48" alt="Ícone do Qubry Studio"><br>
+      <img src="https://qubry.dev/assets/img/studio-icon.png?171126202806" width="48" alt="Ícone do Qubry Studio"><br>
       <b><a href="https://qubry.dev/studio/">Qubry Studio</a></b> · <sub>editor · macOS · beta fechado</sub><br>
       O editor feito para agentes. Sessões, chat, mudanças, arquivos e terminal numa janela só, com o Claude Code e o Codex no centro do fluxo.<br>
       <a href="https://qubry.dev/studio/novidades/">Novidades</a>
     </td>
     <td width="50%" valign="top">
-      <img src="https://qubry.dev/assets/img/agents-icon.png?161126085519" width="48" alt="Ícone do Qubry Agents"><br>
+      <img src="https://qubry.dev/assets/img/agents-icon.png?171126202806" width="48" alt="Ícone do Qubry Agents"><br>
       <b><a href="https://qubry.dev/agents/">Qubry Agents</a></b> · <sub>orquestração · macOS, Windows, Linux · beta fechado</sub><br>
       Claude Code, Codex e qualquer agente de terminal lado a lado num canvas infinito, conectados entre si.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://qubry.dev/assets/img/terminal-icon.png?161126085519" width="48" alt="Ícone do Qubry Terminal"><br>
+      <img src="https://qubry.dev/assets/img/terminal-icon.png?171126202806" width="48" alt="Ícone do Qubry Terminal"><br>
       <b><a href="https://qubry.dev/terminal/">Qubry Terminal</a></b> · <sub>terminal · macOS · beta fechado</sub><br>
       Todos os seus terminais num lugar só: comandos em blocos, projetos em abas e um comando que roda em todos os painéis.
     </td>
     <td width="50%" valign="top">
-      <img src="https://qubry.dev/assets/img/countcode-icon.png?161126085519" width="48" alt="Ícone do CountCode"><br>
+      <img src="https://qubry.dev/assets/img/countcode-icon.png?171126202806" width="48" alt="Ícone do CountCode"><br>
       <b><a href="https://qubry.dev/countcode/">CountCode</a></b> · <sub>consumo de IA · macOS · beta fechado</sub><br>
       Quanto você já usou do Claude Code e do Codex, em anéis na borda da tela. Sem chave, sem nuvem.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://qubry.dev/assets/img/db-icon.png?161126085519" width="48" alt="Ícone do Qubry DB"><br>
+      <img src="https://qubry.dev/assets/img/db-icon.png?171126202806" width="48" alt="Ícone do Qubry DB"><br>
       <b><a href="https://qubry.dev/db/">Qubry DB</a></b> · <sub>banco de dados · Rust · macOS, Linux · beta fechado</sub><br>
       Banco de dados embutido inspirado no SQLite e reescrito do zero em Rust. Um arquivo, sem servidor.
     </td>
     <td width="50%" valign="top">
-      <img src="https://qubry.dev/assets/img/qubry-mark.svg" width="48" alt=""><br>
+      <img src="https://qubry.dev/assets/img/qubry-mark.svg?171126202806" width="48" alt=""><br>
       <b>Beta fechado, por convite.</b><br>
       Os apps estão sendo testados com um grupo pequeno de convidados. Acompanhe as novidades em <a href="https://qubry.dev">qubry.dev</a>.
     </td>
