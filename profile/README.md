@@ -46,7 +46,7 @@
     <td width="50%" valign="top">
       <img src="https://qubry.dev/assets/img/countcode-icon.png?171126202806" width="48" alt="Ícone do CountCode"><br>
       <b><a href="https://qubry.dev/countcode/">CountCode</a></b> · <sub>consumo de IA · macOS · beta fechado</sub><br>
-      Quanto você já usou do Claude Code e do Codex, em anéis na borda da tela. Sem chave, sem nuvem.
+      Quanto você já usou do Claude Code e do Codex, conta por conta e pelo tipo de conta, numa barra fina abaixo da barra de menus e no rodapé do Studio, do Terminal e do Agents. Sem chave, sem nuvem.
     </td>
   </tr>
   <tr>
