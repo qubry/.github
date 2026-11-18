@@ -8,7 +8,9 @@
   Ferramentas nativas para quem constrói software com IA:<br>
   editor, orquestração de agentes, terminal, banco de dados e o consumo das suas IAs à vista.<br><br>
   <a href="https://qubry.dev"><b>qubry.dev</b></a> ·
-  <a href="https://qubry.dev/docs/">Documentação</a>
+  <a href="https://qubry.dev/docs/">Documentação</a> ·
+  <a href="https://x.com/Qubrydev">X</a> ·
+  <a href="https://www.instagram.com/qubrydev/">Instagram</a>
 </p>
 
 > [!IMPORTANT]
@@ -26,7 +28,7 @@
     <td width="50%" valign="top">
       <img src="https://qubry.dev/assets/img/studio-icon.png?171126202806" width="48" alt="Ícone do Qubry Studio"><br>
       <b><a href="https://qubry.dev/studio/">Qubry Studio</a></b> · <sub>editor · macOS · beta fechado</sub><br>
-      O editor feito para agentes. Sessões, chat, mudanças, arquivos e terminal numa janela só, com o Claude Code e o Codex no centro do fluxo.<br>
+      O editor feito para agentes. Sessões, chat, mudanças, arquivos e terminal numa janela só, com o Claude Code e o Codex no centro do fluxo. Agentes conferidos antes de instalar, extensões maliciosas bloqueadas e aviso quando a pasta tem segredos.<br>
       <a href="https://qubry.dev/studio/novidades/">Novidades</a>
     </td>
     <td width="50%" valign="top">
@@ -39,7 +41,7 @@
     <td width="50%" valign="top">
       <img src="https://qubry.dev/assets/img/terminal-icon.png?171126202806" width="48" alt="Ícone do Qubry Terminal"><br>
       <b><a href="https://qubry.dev/terminal/">Qubry Terminal</a></b> · <sub>terminal · macOS · beta fechado</sub><br>
-      Todos os seus terminais num lugar só: comandos em blocos, projetos em abas e um comando que roda em todos os painéis.
+      Todos os seus terminais num lugar só: comandos em blocos, IA que você revisa, SSH e arquivos remotos, sincronizar pastas e um servidor MCP para o Claude Code usar os seus servidores, com a sua aprovação a cada escrita.
     </td>
     <td width="50%" valign="top">
       <img src="https://qubry.dev/assets/img/countcode-icon.png?171126202806" width="48" alt="Ícone do CountCode"><br>
@@ -67,6 +69,19 @@
 - **Suas chaves, seus modelos.** Claude e Codex com as suas credenciais, guardadas criptografadas no Keychain do sistema.
 - **Nativo e local.** Apps nativos que trabalham com os seus arquivos e o seu terminal, sem depender de uma nuvem nossa.
 - **Tecnologia silenciosa.** Interfaces densas e calmas, que ficam fora do caminho até você precisar delas.
+- **Seguro por padrão.** Senhas e chaves no Keychain, segredos ocultados antes de ir para a IA, extensões maliciosas bloqueadas e agentes conferidos por hash antes de instalar.
+- **IA que você revisa.** Comandos, correções e mudanças sugeridos pela IA esperam a sua revisão, e você vê exatamente o que é enviado ao modelo.
+- **Agentes conectados.** Os apps conversam por MCP: os agentes do Studio usam o canvas do Agents e os seus servidores pelo Terminal.
+- **Sem telemetria.** Nenhum dado de uso é coletado. A IA só é chamada quando você pede, com as suas próprias chaves.
+
+## Segurança
+
+Os apps lidam com chaves de API, acessos a servidores e código. Cada um passou por uma revisão de segurança (novembro de 2026), com as correções já nas versões do beta:
+
+- **Qubry Studio:** a chave da Anthropic chega só ao agente Claude; os SDKs do Claude e do Codex só instalam com o hash fixado no app; lista de extensões maliciosas do Open VSX; nenhuma extensão recebe uma conta sem pedir; aviso de `.env` e chaves na pasta da sessão; Notas cifradas.
+- **Qubry Terminal:** senhas, tokens e `.env` ocultados antes de qualquer pedido à IA; histórico sem comandos com segredo; bloqueio com Touch ID que não se desliga por fora; chave ssh criada com frase; impressão digital de servidor novo em destaque; agentes só com aprovação a cada escrita.
+
+Encontrou um problema de segurança? Fale direto com o autor em [edgo.app.br](https://edgo.app.br), sem abrir issue pública.
 
 ## Código e downloads
 
